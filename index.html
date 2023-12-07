@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>My PortFolio ~ KalyanamGanesh</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <script src="https://kit.fontawesome.com/62456e389d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="nav-bar">
+                <img src="./LogoGK.jpg" height="50px" width="75px"/>
+                <nav id="sidemenu">
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#about">Education</a>
+                    <a href="#about">Skills</a>
+                    <a href="#portfolio">Projects</a>
+                    <!-- <a href="#services">Hobbies</a> -->
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark close" onclick="closemenu()"></i>
+                </nav>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div> 
+            <div class="header-text">
+                <p>Java Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Ganesh</span><br>From AndhraPradesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------about------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./GaneshPP.jpg"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm enthusiastic about continuous learning and keeping up with the latest industry trends. I'm excited to contribute my skills and grow as a developer while working collaboratively with a dynamic team. If you're looking for a motivated and adaptable developer to join your team, I'd love to connect! As a fresh graduate, I bring a strong foundation in web development and a passion for creating innovative and interactive web solutions. My skills include:</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Lanuages</span><br>Core Java & Python (OOPS)</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, React JS*, jQuery, Java, JDBC, SQL</li>
+                            <li><span>Databases</span><br>MySQL</li>
+                            <li><span>Version Control System</span><br>Git & GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Java Full Stack Developer Training ~ Oct, 2023 - Jan, 2024</span><br><a href="https://india.generation.org/" style="text-decoration: none;color:#ababab">Generation India</a></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023  ~ CGPA:9.0</span><br>B.Tech - Rajiv Gandhi University of Knowledge Technologies, ONGOLE </li>
+                            <li><span>2017-2019  ~ CGPA:8.84</span><br>PUC - Rajiv Gandhi University of Knowledge Technologies, ONGOLE </li>
+                            <li><span>2016-2017  ~ CGPA:9.7</span><br>SSC - Z.P.High School, Ramathirtham</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------Services----------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Self</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Proficient in HTML, CSS,Bootstrap and JavaScript, I can craft user-friendly and responsive web interfaces that deliver a seamless user experience.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <i class="fa-regular fa-circle-check"></i>
+                    <h2>Soft Skills</h2>
+                    <p>Teamwork<br>Collaborative<br>Quick Learner<br>Self-motivated<br>Time management</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h2>Hobbies</h2>
+                    <p>Reading books <br>Listening to music <br>Playing Cricket</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--------------------portfolio------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./AmaKart.jpg"/>
+                <div class="layer">
+                    <h3>AmaKart</h3>
+                    <p>AmaKart is a feature-rich e-commerce website developed using HTML, CSS, and JavaScript. It includes a secure login system with local storage validation, dynamic product management (add,update,delete), and detailed product showcases — a robust solution for a seamless online shopping experience.</p>
+                    <a href="https://kalyanamganesh.github.io/AmaKart/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Marvel .jpg"/>
+                <div class="layer">
+                    <h3>MovieFinder</h3>
+                    <p>Discover your next movie right with our Movie Finder project created using HTML, CSS, JavaScript, and the OMDb API. Explore a vast collection of films, search by title, genre, or actor, and get detailed information to make informed choices for your entertainment.</p>
+                    <a href="https://kalyanamganesh.github.io/MovieFinder/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./5242980.jpg"/>
+                <div class="layer">
+                    <h3>Expense Tracker</h3>
+                    <p>Efficiently manage your finances with our Expense Tracker project developed using HTML, CSS, and JavaScript. This user-friendly web application allows you to easily input, categorize, and track your expenses, providing a clear visual overview of your spending habits.</p>
+                    <a href="https://kalyanamganesh.github.io/ExpenseTracker-GK/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work hide" >
+                <img src="./6592321.jpg"/>
+                <div class="layer">
+                    <h3>Video Player</h3>
+                    <p>Elevate your multimedia experience with our user-friendly video player app, delivering seamless playback and customizable features at your fingertips.</p>
+                    <a href="https://kalyanamganesh.github.io/VideoPlayer/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work hide">
+                <img src="./4905798.jpg"/>
+                <div class="layer">
+                    <h3>ToDo</h3>
+                    <p>Stay organized and boost productivity with our intuitive to-do app, simplifying task management for a more efficient and stress-free day.</p>
+                    <a href="https://kalyanamganesh.github.io/To-Do-App/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div
+        </div>
+        <span class="btn" id="seeMore">See more</span>
+    </div>
+</div>
+<!-- ------------------------contact------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kganesh170650@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91 7658962173</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100028758043775&mibextid=7cd5pb" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-kalyanam-81ab83243" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/KalyanamGanesh" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-codepen"></i></a>
+                </div>
+                <a href="./Ganesh-Kalyanam-Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright @Ganesh<i class="fa-solid fa-heart"></i></p>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>
