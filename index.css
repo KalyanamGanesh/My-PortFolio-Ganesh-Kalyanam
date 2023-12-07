@@ -427,9 +427,10 @@ form .btn2{
         font-size: 12px;
         padding-top: 44vh;
         width:70%;
-        text-shadow:1px 1px  1px rgba(26, 24, 24, 0.646);
-
-        
+        text-shadow:1px 1px  1px rgba(26, 24, 24, 0.646); 
+    }
+    .header-text span{
+        text-shadow:2px 2px black;
     }
 
 }
