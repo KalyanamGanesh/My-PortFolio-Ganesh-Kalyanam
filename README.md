@@ -1,1 +1,1 @@
-# My-PortFolio-Ganesh-Kalyanam
+Welcome to the GitHub repository for my personal portfolio website! This repository showcases my skills, projects, and achievements in the world of technology and design. Explore the code that powers my website, learn about the technologies I've used, and collaborate on exciting projects. Thank you for visiting my work!
